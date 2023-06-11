@@ -1,0 +1,5 @@
+numeros = (42,34,167,523,3205,-5123,5435,3123,432,123)
+maior = numeros.index(max(numeros))
+menor = numeros.index(min(numeros))
+print(f"Posicao do maior: {maior}")
+print(f"Posicao do menor: {menor}")
